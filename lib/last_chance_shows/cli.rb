@@ -1,18 +1,31 @@
 #CLI Controller
 class LastChanceShows::CLI
+  attr_accessor :num_of_shows
+  attr_reader :shows
+
+  def initialize
+    puts "Loading..."
+    @shows = LastChanceShows::Shows.closings
+    @num_of_shows = @shows.length
+    puts ""
+  end
 
   def call
     puts "It's your last chance to see these Broadway/Off-Broadway shows in New York City!"
+    puts ""
     list_shows
     menu
     goodbye
   end
 
   def list_shows
-    @shows = LastChanceShows::Shows.closings
     @shows.each.with_index(1) do |show, i|
       puts "#{i}. #{show.title}"
       puts "     #{show.venue} // #{show.closing}"
+      if i % 5 == 0
+        puts "Press Enter to continue listings.  There are #{num_of_shows} shows in total."
+        gets
+      end
     end
   end
 
