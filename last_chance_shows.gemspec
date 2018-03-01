@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{This gem will help you find theater shows that are closing soon New York City.}
   spec.description   = %q{This gem will help you find theater shows that are closing soon New York City.  It will scrape Playbill.com for shows that are closing soon, allow you to select a show you're interested in, and deliver back more information on the show.  (ie. synopsis, days and times, runtime, etc...)}
-  spec.homepage      = "https://github.com/cdhenry/cli-data-gem-assessment-v-000.git"
+  spec.homepage      = "https://github.com/cdhenry/last-chance-shows-cli-app.git"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
   # to allow pushing to a single host or delete this section to allow pushing to any host.
