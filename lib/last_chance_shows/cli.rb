@@ -1,4 +1,3 @@
-#CLI Controller
 class LastChanceShows::CLI
   def call
     LastChanceShows::Scraper.make_shows
