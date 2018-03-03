@@ -7,7 +7,7 @@ This Ruby Gem provides a CLI to view the all plays and musicals in Broadway and 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'last_chance_shows'
+gem 'last-chance-shows'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install last_chance_shows
+    $ gem install last-chance-shows
 
 ## Usage
 
