@@ -3,7 +3,7 @@ require_relative './lib/last_chance_shows/version'
 Gem::Specification.new do |s|
   s.name        = 'last-chance-shows'
   s.version     = LastChanceShows::VERSION
-  s.date        = '2018-03-01'
+  s.date        = '2018-03-03'
   s.summary     = "Last Chance Shows in NYC"
   s.description = "Helps find theater shows that are closing soon New York City."
   s.authors     = ["Chris Henry"]
