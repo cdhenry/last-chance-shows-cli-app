@@ -1,8 +1,7 @@
 PATH
   remote: .
   specs:
-    last_chance_shows (0.1.0)
-      nokogiri
+    last-chance-shows (0.1.0)
 
 GEM
   remote: https://rubygems.org/
@@ -35,8 +34,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bundler (~> 1.16)
-  last_chance_shows!
+  bundler (~> 1.10)
+  last-chance-shows!
+  nokogiri
   pry
   rake (~> 10.0)
   rspec
