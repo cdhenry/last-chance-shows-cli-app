@@ -66,18 +66,4 @@ class LastChanceShows::Scraper
     Date.new(year_integer, month_integer, day_integer)
   end
 
-  #
-  #   closing_i = 0 #index counter for keeping track of the 'Closing..' <h2>'s
-  #   #find relevant Show Class information by iterating through each element in css class '.bsp-article-content'
-  #   elements.each_with_index do |element, i|
-  #     if element.name == "h2"   #capture and index for each 'Show Closing' date
-  #       closing_i = i
-  #     end
-  #     #find the <p>'s that contain show information based on current site format (2/26/2018)
-  #     if element.name == "p" && closing_i > 0 && !(element.text.include?("To purchase")) && element.children[0].name == "u"
-  #
-  #
-  #   binding.pry
-  # end
-
 end
