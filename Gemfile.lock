@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    last-chance-shows (0.1.0)
+    last-chance-shows (0.2.0)
 
 GEM
   remote: https://rubygems.org/
